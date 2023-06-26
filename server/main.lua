@@ -63,11 +63,11 @@ AddEventHandler('bpt_woodcutter:cancelProcessing', function()
 	CancelProcessing(source)
 end)
 
-AddEventHandler('esx:playerDropped', function(playerID, reason)
+AddEventHandler('esx:playerDropped', function(playerID)
 	CancelProcessing(playerID)
 end)
 
 RegisterServerEvent('esx:onPlayerDeath')
-AddEventHandler('esx:onPlayerDeath', function(data)
+AddEventHandler('esx:onPlayerDeath', function()
 	CancelProcessing(source)
 end)
