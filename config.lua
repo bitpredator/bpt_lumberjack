@@ -3,10 +3,10 @@ Config = {}
 Config.Locale  = 'it'
 
 Config.Delays = {
-	LegnoProcessing = 1000 * 10,
+	WoodProcessing = 1000 * 10,
 }
 
 Config.CircleZones = {
-	LegnoField = {coords = vector3(2409.51, 1475.23, 40.71), name = _U('blip_legnofield'), color = 69, sprite = 657, radius = 100.0},
-	LegnoProcessing = {coords = vector3(1208.19, -1350.49, 35.23), name = _U('blip_legnoprocessing'), color = 69, sprite = 657, radius = 1.0},
+	WoodField = {coords = vector3(2409.51, 1475.23, 40.71), name = _U('blip_woodfield'), color = 69, sprite = 657},
+	WoodProcessing = {coords = vector3(1208.19, -1350.49, 35.23), name = _U('blip_woodprocessing'), color = 69, sprite = 657},
 }
